@@ -8,6 +8,7 @@ const Single = React.createClass({
       const i = this.props.posts.findIndex((post) => post.code === this.props.params.postId)
       //get the post
       const post = this.props.posts[i]
+      {debugger}
       return(
         <div className="single-photo">
           <Photo i={i} post={post} {...this.props} />

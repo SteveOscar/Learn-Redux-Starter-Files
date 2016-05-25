@@ -2,13 +2,13 @@ import React from 'react'
 
 import { render } from 'react-dom'
 
-//Import css
+//Import css 
 import css from './styles/style.styl'
 
 //Import Componenets
-import App from './componenets/App'
-import Single from './componenets/Single'
-import PhotoGrid from './componenets/PhotoGrid'
+import App from './components/App'
+import Single from './components/Single'
+import PhotoGrid from './components/PhotoGrid'
 
 //Import react router deps
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
